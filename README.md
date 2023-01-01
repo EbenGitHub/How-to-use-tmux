@@ -15,6 +15,10 @@ brew install tmux
 ```bash
 tmux
 ```
+> To start new session in detached mode
+```bash
+tmux new -d "<your command here>"
+```
 > To split panel into left and right
 ```bash
 Ctrl-b %
